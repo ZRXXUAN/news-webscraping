@@ -1,0 +1,23 @@
+网站:
+
+新浪   domain: news.sina.com.cn; starturls: https://news.sina.com.cn/
+网易   domain: news.163.com;     starturls: https://news.163.com/   注：可以考虑隔段时间重复爬
+搜狐   domain: sohu.com;         starturls: http://news.sohu.com    注：有news板块，但是指向的文章不在news.xxx域名下
+凤凰网 domain: news.ifeng.com;   starturls: http://news.ifeng.com/  注：全站使用JS渲染文章，技术不到位，暂不爬取
+新华网 domain: xinhuanet.com;    starturls: http://xinhuanet.com/   注：无news板块，新华网全是新闻，即使是房产、汽车等板块也是新闻
+人民网 domain: people.com.cn;    starturls: http://www.news.people.com.cn/  注：有news板块，但是指向的文章不在news.xxx域名下
+中国网 domain: news.china.com.cn;     starturls: http://news.www.china.com.cn/
+央视网 domain: news.cctv.com;    starturls: http://news.cctv.com
+
+新闻 | 财经 | 体育 | 娱乐 |  科技 这五类
+滚动新闻
+新浪 https://news.sina.com.cn/roll/#pageid=153&lid=2509&k=&num=50&page=1
+网易 http://news.163.com/latest
+搜狐没有，有也是很久没更新了http://news.sohu.com/scroll/ 几年前的各种门类比较全，越新的越不全，甚至没有
+新华网 http://m.xinhuanet.com/politics/index.htm
+人民网 http://news.people.com.cn/
+中国网 https://news.china.com/roll/
+央视网 http://news.cctv.com/roll/
+http://v2.sohu.com/integration-api/mix/region/131?size=50&page=1&adapter=pc
+
+http://v2.sohu.com/integration-api/mix/region/131?size=50&page=1&adapter=pc
